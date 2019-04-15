@@ -1,0 +1,5 @@
+<launch>
+  <group ns="emergency">
+    <node pkg="emergency_stop" name="main" output="screen" type="main.py"/>
+  </group>
+</launch>
